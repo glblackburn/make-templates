@@ -1,0 +1,12 @@
+#!/bin/bash
+set -e
+
+echo $DOCKER_REGISTRY
+echo $PROJECT_NAME
+echo $PROJECT_VERSION
+echo $PROJECT_ENVIRONMENT
+echo $PROJECT_BUILD_NUMBER
+echo $PROJECT_VERSION_TAG
+echo $GIT_HUB
+echo $BRANCH
+echo $LATEST_YQ
