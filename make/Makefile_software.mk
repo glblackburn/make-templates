@@ -15,6 +15,9 @@ install-homebrew: ## install homebrew to download other pacakges
 	@echo "################################################################################"
 	exit 1
 
+aws:
+	brew install awscli
+
 # https://github.com/tfutils/tfenv
 tfenv:
 	@echo "tfenv: PATH=[${PATH}]"
